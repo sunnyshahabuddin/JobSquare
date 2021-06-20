@@ -1,0 +1,46 @@
+name: js1
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter_screenutil: ^5.0.0
+  font_awesome_flutter: ^9.0.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  firebase_auth: ^1.1.4
+  cloud_firestore: ^2.1.0
+  firebase_core: ^1.1.1
+  url_launcher: ^6.0.3
+  image_picker: ^0.7.5+2
+  firebase_storage: ^8.1.0
+  permission_handler: ^7.1.0
+  swipe_cards: ^0.0.4
+  swipeable_card_stack: ^0.0.2
+  ko_swipe_card: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - Assets/
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: Assets/CustomIcons.ttf
+
+    - family: Poppins-Bold
+      fonts:
+        - asset: Assets/Poppins-Bold.ttf
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: Assets/Poppins-Medium.ttf
+
